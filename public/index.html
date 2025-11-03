@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Allianz Cognigy Copilot Tester</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Allianz Cognigy Copilot Tester</h1>
+  </header>
+
+  <main class="layout">
+    <section class="left">
+      <div class="controls">
+        <div class="row">
+          <label for="fileInput">Transcript (.txt):</label>
+          <input type="file" id="fileInput" accept=".txt" />
+        </div>
+        <div class="row">
+          <label for="speedInput">Velocidad (msg/seg):</label>
+          <input type="number" id="speedInput" min="0.25" step="0.25" value="1" />
+        </div>
+        <div class="row">
+          <label>Mapeo Speakers:</label>
+          <select id="speaker1">
+            <option value="agent" selected>Speaker 1 = agente</option>
+            <option value="customer">Speaker 1 = cliente</option>
+          </select>
+          <select id="speaker2">
+            <option value="customer" selected>Speaker 2 = cliente</option>
+            <option value="agent">Speaker 2 = agente</option>
+          </select>
+        </div>
+        <div class="row buttons">
+          <button id="startBtn">START</button>
+          <button id="pauseBtn" disabled>PAUSE</button>
+          <button id="resumeBtn" disabled>RESUME</button>
+          <button id="resetBtn" disabled>RESET</button>
+        </div>
+      </div>
+
+      <div class="transcript">
+        <h2>Transcript</h2>
+        <ul id="transcriptList"></ul>
+      </div>
+
+      <div class="logs">
+        <h2>Logs</h2>
+        <pre id="logArea"></pre>
+      </div>
+    </section>
+
+    <section class="right">
+      <div class="iframe-container">
+        <iframe id="copilotFrame" title="Cognigy Copilot" src="about:blank"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+<!--
+  Nota: Esta herramienta es de uso interno. Ajustar payload/eventos
+  según comportamiento observado del bot en Cognigy.
+-->
+</html>
+
+
