@@ -6,16 +6,17 @@ import { v4 as uuidv4 } from 'uuid';
 
 dotenv.config();
 
+const PORT = process.env.PORT || 3000;
+const COGNIGY_SOCKET_URL = process.env.COGNIGY_SOCKET_URL || 'https://endpoint-eu-dev-cai.cognigy.cloud/3e0aadbf61d13830f0831264e6adf289ae56068b957fff917759ec9af0e83522';
+
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-const PORT = process.env.PORT || 3000;
-const COGNIGY_SOCKET_URL = process.env.COGNIGY_SOCKET_URL || 'https://endpoint-eu-dev-cai.cognigy.cloud/3e0aadbf61d13830f0831264e6adf289ae56068b957fff917759ec9af0e83522';
-
+// SocketClient instance
+let socket = null;
 // Simple in-memory session state (single session for this tester app)
-let socket = null; // will hold SocketClient instance
 let sessionState = {
   userId: null,
   sessionId: null,
@@ -53,14 +54,16 @@ function extractIframeUrlFromPayload(payload) {
 app.post('/api/session/start', async (req, res) => {
   try {
     // Reset and create new session identifiers
-    sessionState.userId = uuidv4();
+    // A a unique user id could be generated for each transcript, but it is more useful a default user id for debugging in Cognigy
+    // sessionState.userId = uuidv4();
+    sessionState.userId = "tester-tool"
     sessionState.sessionId = uuidv4();
     sessionState.iframeUrl = null;
     sessionState.lastError = null;
 
     // Close previous socket if any
     if (socket) {
-      try { socket.disconnect(); } catch (_) {}
+      try { socket.disconnect(); } catch (_) { }
       socket = null;
     }
 
@@ -73,7 +76,11 @@ app.post('/api/session/start', async (req, res) => {
 
     // Close previous client if any
     if (socket && typeof socket.disconnect === 'function') {
-      try { await socket.disconnect(); } catch (_) {}
+      try {
+        await socket.disconnect();
+      } catch (error) {
+        console.error('[cognigy] disconnect failed:', error?.message || error);
+      }
     }
 
     // Create Cognigy SocketClient
@@ -95,12 +102,12 @@ app.post('/api/session/start', async (req, res) => {
         notice: sessionState.iframeUrl ? undefined : 'Waiting for iframe URL from bot... poll /api/session/state',
       });
     };
-    
+
     // Listen for output messages from AI Agent
     socket.on('output', (output) => {
       try {
         console.log('[cognigy] output:', output?.text || output?.data || output);
-      } catch (_) {}
+      } catch (_) { }
       const maybeUrl = extractIframeUrlFromPayload(output) || extractIframeUrlFromPayload(output?.text) || extractIframeUrlFromPayload(output?.data);
       if (maybeUrl) {
         sessionState.iframeUrl = maybeUrl;
@@ -125,8 +132,8 @@ app.post('/api/session/start', async (req, res) => {
       return res.status(500).json({ ok: false, error: 'connect_error', message: err?.message || String(err) });
     }
 
-  } catch (err) {
-    return res.status(500).json({ ok: false, error: 'unexpected', message: err?.message || String(err) });
+  } catch (error) {
+    return res.status(500).json({ ok: false, error: 'unexpected', message: error?.message || String(error) });
   }
 });
 
@@ -152,8 +159,8 @@ app.post('/api/session/send', (req, res) => {
     console.log('[cognigy] sendMessage:', { text, extra });
     socket.sendMessage(String(text), extra);
     return res.json({ ok: true });
-  } catch (err) {
-    console.error('[cognigy] send_failed:', err?.message || err);
+  } catch (error) {
+    console.error('[cognigy] send failed:', error?.message || error);
     return res.status(500).json({ ok: false, error: 'send_failed', message: err?.message || String(err) });
   }
 });
@@ -161,12 +168,17 @@ app.post('/api/session/send', (req, res) => {
 app.post('/api/session/reset', (req, res) => {
   try {
     if (socket) {
-      try { socket.disconnect(); } catch (error) { console.error('[cognigy] disconnect failed:', error?.message || error); }
+      try {
+        socket.disconnect();
+      } catch (error) {
+        console.error('[cognigy] disconnect failed:', error?.message || error);
+      }
       socket = null;
     }
     sessionState = { userId: null, sessionId: null, iframeUrl: null, connected: false, lastError: null };
     res.json({ ok: true });
-  } catch (err) {
+  } catch (error) {
+    console.error('[cognigy] reset failed:', error?.message || error);
     res.status(500).json({ ok: false, error: 'reset_failed', message: err?.message || String(err) });
   }
 });
@@ -174,5 +186,3 @@ app.post('/api/session/reset', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);
 });
-
-

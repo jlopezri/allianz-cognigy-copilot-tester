@@ -1,130 +1,261 @@
-00:00:02 Speaker 1
-Good afternoon, welcome to Allianz Portugal. My name is Isabela Franco. How may I help you?
-00:00:06 Speaker 2
-Good afternoon, Isabela. Here's the thing: I filed a claim, but I changed my policy.
-00:00:16 Speaker 2
-And in the meantime, I asked for this report to be forwarded to the correct policy, but I haven't had any feedback and I wanted to know what the status of this report is.
+00:00:01 Speaker 1
+Good morning, welcome to Allianz Portugal. My name is Isabela Franco. How can I help you?
+00:00:07 Speaker 2
+Good morning, thank you very much, because I need to report an accident that happened at my home. It was an accident, not a breakdown.
+00:00:17 Speaker 1
+Sure, and first of all, just talk to.
+00:00:21 Speaker 2
+Andreia and.
+00:00:22 Speaker 1
+The nickname, ma'am.
+00:00:25 Speaker 2
+Silly Andreia.
+00:00:26 Speaker 1
+Souza, thank you very much. What would be your tax number, please?
+00:00:30 Speaker 2
+24.
 00:00:32 Speaker 1
-Of course it was.
-00:00:34 Speaker 2
-Through BPI. I don't know if it makes any difference, no.
-00:00:38 Speaker 1
 Yes.
-00:00:39 Speaker 2
-I know there's a specific protocol?
-00:00:42 Speaker 1
-Yes, first of all, I'm talking to.
-00:00:44 Speaker 2
-Nelson Lourenço.
-00:00:46 Speaker 1
-Thank you, Mr Nelson Lourenço, what is your contribution, please?
-00:00:51 Speaker 2
-20, 8052-3132.
-00:00:57 Speaker 1
-13 Thank you, leave me here, then, at the Fair.
-00:01:08 Speaker 1
-It's 208.
+00:00:33 Speaker 2
+02.
+00:00:34 Speaker 1
+Yes.
+00:00:36 Speaker 2
+83.
+00:00:37 Speaker 1
+Yes.
+00:00:38 Speaker 2
+902.
+00:00:40 Speaker 1
+02 Thank you very much, everything is fine with me.
+00:00:43 Speaker 2
+Yes, everything is fine, thank you.
+00:00:44 Speaker 1
+That's good to hear.
+00:00:50 Speaker 1
+Let me just check, then I'll place the order. Please confirm your full name and date of birth.
+00:00:56 Speaker 2
+Andreia Filipa Almeida Souza, December 9, 1994.
+00:01:01 Speaker 1
+Thank you, the mobile number is as follows. Where are you calling from?
+00:01:05 Speaker 2
+Yes, yes, and...
+00:01:06 Speaker 1
+Email and address, please.
 00:01:10 Speaker 2
-052313.
+To Andreia.
+00:01:12 Speaker 1
+Yes.
+00:01:13 Speaker 2
+Ponto Souza.
+00:01:14 Speaker 1
+Yes.
+00:01:16 Speaker 2
+4.
 00:01:18 Speaker 1
-I'll place the order, but please confirm your full name and date of birth.
-00:01:22 Speaker 2
-Nelson, Manoel Coutinho, Alexandre Lourenço, 8/03/1975.
-00:01:29 Speaker 1
-Thank you. What policy did you ask the bank to take out? Please submit your application, Mr Nelson.
-00:01:36 Speaker 2
-So, on the bank's application form, I indicated that I wanted a policy for a given address.
-00:01:44 Speaker 2
-On Rua 31 de Janeiro. But then I was notified by you that the policy was for contents and not for multi-risk, so I asked for it to be changed to multi-risk, but I didn't receive any information and that was it.
-00:02:04 Speaker 2
-Please, how was the situation?
-00:02:09 Speaker 1
-Right, you sent us that reply email on the 14th, and then today, exactly, there was no reply. I'll go now.
-00:02:24 Speaker 1
-Proceed with opening the case. Could you just explain to me what happened, please?
-00:02:31 Speaker 2
-Yes, I know here when it's no longer, what's the name of the storm that came at the end of October?
-00:02:42 Speaker 2
-And then some stains appeared on the ceiling of the house. I think there must be some kind of leak or something like that.
-00:02:50 Speaker 1
-Let me just take a look.
-00:02:52 Speaker 2
-I think I even attached some photos. I'm not sure.
-00:02:56 Speaker 1
-Thank you very much, let me just find out why.
-00:03:00 Speaker 1
-The policy is difficult, I can't find it. It's linked to the mortgage.
-00:03:06 Speaker 2
-Yes, yes, it is.
-00:03:07 Speaker 1
-Actually, there is another policyholder, sir.
-00:03:13 Speaker 2
-Nelson.
-00:03:14 Speaker 1
-Clara, and it's on 31 January Street, correct?
+Yes.
+00:01:19 Speaker 2
+@Icloud.com.
+00:01:21 Speaker 1
+Correct, and the address.
+00:01:24 Speaker 2
+São Miguel de Matos Street.
+00:01:26 Speaker 1
+Yes.
+00:01:27 Speaker 2
+Number 37.
+00:01:30 Speaker 2
+Hanging up 4575071.
+00:01:35 Speaker 1
+Thank you very much. What happened at your house was a breakdown, an accident involving what in front of what?
+00:01:42 Speaker 2
+Only water got into the house, one.
+00:01:47 Speaker 2
+How can I explain your roof to you?
+00:01:50 Speaker 1
+Okay, but do you have any building insurance with us because I only see some contents insurance?
+00:02:03 Speaker 2
+I think so, I have it with my bank.
+00:02:06 Speaker 1
+With the bank, what is the policy number you have with you?
+00:02:10 Speaker 2
+No.
+00:02:13 Speaker 1
+Let me check here if you could wait a moment, please, if possible.
+00:02:17 Speaker 2
+I considered my husband's name, please.
+00:02:20 Speaker 1
+Yes, what would be your husband's taxpayer number?
+00:02:23 Speaker 2
+Can you wait a moment, please? I have to look it up, I can't remember.
+00:02:29 Speaker 1
+No problem.
+00:02:56 Speaker 2
+Oh, really?
+00:02:59 Speaker 1
+I have the Apollo number or BPI Bank certificate, Ms. Andreia Souza, because...
+00:03:07 Speaker 2
+I am at my workplace.
+00:03:09 Speaker 1
+Right, but the insurance is linked to the mortgage with us, is that right?
+00:03:15 Speaker 2
+Yes.
+00:03:17 Speaker 1
+And it's a leak coming from the roof.
 00:03:21 Speaker 2
 Yes.
 00:03:22 Speaker 1
-The mortgage insurance was in her name. Did you say as the second holder?
-00:03:27 Speaker 2
-I did.
-00:03:29 Speaker 1
-Yes, yes, yes, it was in her name and you are the second holder, but I, since you also find that we don't find it.
-00:03:38 Speaker 2
+And do you live in an apartment or a house?
+00:03:25 Speaker 2
+For sale.
+00:03:26 Speaker 1
+A sale, very well, then I will check here and go through the procedure. So, if you could wait a moment, please, that would be possible.
+00:03:33 Speaker 2
+Yes, yes.
+00:03:34 Speaker 1
+Thank you very much.
+00:05:26 Speaker 1
+Mr. Andreia Sousa, yes, thank you very much for waiting, and I was here confirming on your behalf. We don't have any building insurance, it may be in your husband's name and he was the first policyholder. However, if it's the company's insurance, I can indicate that now.
+00:05:45 Speaker 1
+The procedures Ah, since it's a leak, what we recommend in order to speed up the process is that you call someone to identify the source of the problem. Whether it's a crack in the tiles, maintenance, or even a break.
+00:06:05 Speaker 1
+It's a pipe.
+00:06:07 Speaker 2
+I already did that, you already took care of it yesterday, it was a problem with the roof sheet metal.
+00:06:15 Speaker 1
+Right.
+00:06:16 Speaker 2
+I needed to report it to the insurance company. It was the damage it did inside.
+00:06:23 Speaker 1
+Inside the house, that is, when you say damage inside, what was damaged?
+00:06:30 Speaker 2
+It damaged the wood around the glass wall, and that was it, it was wood, EE. The wall was wood, wasn't it?
+00:06:43 Speaker 1
+Right, the building insurance policy also has to be activated, because that's what covers the structure of the house. What we need to be presented with is a repair estimate, along with photos of the damage.
+00:07:00 Speaker 1
+And a report indicating the source of the problem.
+00:07:06 Speaker 2
+OK, that report can be requested, for example, from the gentleman who came yesterday.
+00:07:11 Speaker 1
 A.
-00:03:40 Speaker 2
-Give her the information if necessary.
-00:03:43 Speaker 1
-No, that won't be necessary, thank you. As you are the second holder, we can proceed with the calls without any problem. So it was an infiltration, correct?
-00:03:52 Speaker 2
+00:07:12 Speaker 2
+Chapa or a?
+00:07:13 Speaker 1
 Yes.
-00:03:53 Speaker 1
-Yes, and what about this situation?
-00:03:55 Speaker 1
-When did it start, when did you notice it, Mr Nelson Lourenço?
-00:03:59 Speaker 2
-When that time after the storm, I remember the name of it now, it was at the end of September.
-00:04:12 Speaker 1
-Very well, and have you called someone to the site to assess the damage?
-00:04:17 Speaker 2
-No, because I was usually waiting for you to contact me, because normally, at least once, since I had already participated in something like this.
-00:04:31 Speaker 2
-It's if you take care of it, I wanted to take care of it, so the whole process is like that. I spoke informally with an acquaintance, but he said that as a consul, normally THIS is what José basically likes.
-00:04:49 Speaker 1
-Yes, we did send someone to the location to check on the situation, but if our clients want to call someone privately, we also give them that opportunity. That's why I asked, Mr Nelson Lourenço.
-00:05:03 Speaker 2
-Yes, yes, yes, I understand.
-00:05:06 Speaker 2
-I prefer, I prefer that you follow up because sometimes, for some reason, people may not have the expected skills, and so I know that if it comes through the insurance company, they have the competence to solve the problems.
-00:05:25 Speaker 1
-Of course, I will then proceed to open the case and request our expert. If you could wait a moment, please, that would be possible, Mr Nelson Lourenço, thank you.
-00:08:16 Speaker 1
-Mr Nelson Lourenço, thank you for waiting. I have now opened the case. Could you please give me the claim number?
-00:08:28 Speaker 2
-Just a moment, just a moment.
-00:08:56 Speaker 2
-OK, can you tell me now?
-00:08:58 Speaker 1
-It's 222.
-00:09:01 Speaker 2
+00:07:14 Speaker 2
+How am I going to get out of this report?
+00:07:16 Speaker 1
+It could be the gentleman who went to your house yesterday to do the repair. He can issue that report indicating the source of the damage.
+00:07:28 Speaker 2
+Yes, yes, yes, when?
+00:07:32 Speaker 1
+I mean, the report is a document written by him indicating the cause of the problem with the metal sheets.
+00:07:43 Speaker 2
+So could you repeat that, please, it's a report.
+00:07:46 Speaker 1
+Budget.
+00:07:48 Speaker 2
+Budget report.
+00:07:51 Speaker 1
+And photos.
+00:07:53 Speaker 2
+And photos, yes, but now what?
+00:08:01 Speaker 2
+Well, for example, you have to come back later, I'll send THIS to where? To an email address.
+00:08:07 Speaker 1
+To our sinister email.
+00:08:12 Speaker 2
+Yes, sinister.
+00:08:13 Speaker 1
+It's sinister in the singular.
+00:08:16 Speaker 2
+Sinister.
+00:08:17 Speaker 1
+Period.
+00:08:19 Speaker 2
+Period.
+00:08:20 Speaker 1
+M for Mary.
+00:08:23 Speaker 2
+M for Maria.
+00:08:25 Speaker 1
+R for king, yes @Allianz.
+00:08:31 Speaker 2
 Yes.
-00:09:03 Speaker 1
-567.
-00:09:06 Speaker 2
-26. 7.
-00:09:09 Speaker 1
-034.
-00:09:11 Speaker 2
-0 34 22256-7034.
-00:09:15 Speaker 1
-Within 24 to 48 working hours, you will be contacted by our expert to schedule the assessment.
-00:09:24 Speaker 2
-OK.
-00:09:28 Speaker 1
-Can I help you with anything else?
-00:09:30 Speaker 2
-A.
-00:09:32 Speaker 1
-Allianz appreciates your contact. I would just like to ask you to rate our service, please. Thank you.
-00:09:38 Speaker 2
+00:08:32 Speaker 1
+Point PT.
+00:08:35 Speaker 1
+And you have to put your husband's taxpayer number or policy number in the subject line.
+00:08:54 Speaker 2
+Would you mind waiting just a moment while I confirm something here?
+00:08:59 Speaker 1
+Yes.
+00:09:14 Speaker 2
+Oh, really?
+00:10:10 Speaker 2
+Look, I can give you my husband's tax ID number so you can check.
+00:10:15 Speaker 1
+Can I have your husband's taxpayer ID number, please?
+00:10:18 Speaker 2
+24.
+00:10:20 Speaker 1
+Yes.
+00:10:21 Speaker 2
+644.
+00:10:24 Speaker 1
+Yes.
+00:10:25 Speaker 2
+23.
+00:10:27 Speaker 1
+Yes.
+00:10:28 Speaker 2
+52.
+00:10:30 Speaker 1
 Thank you.
+00:11:03 Speaker 1
+Yes, since the insurance policy is actually in your husband's name and you are listed as the second holder? Yes.
+00:11:13 Speaker 2
+Yes.
+00:11:15 Speaker 1
+Then I can provide the policy number here, if you wish.
+00:11:20 Speaker 2
+Yes, please.
+00:11:22 Speaker 1
+I have it written down.
+00:11:24 Speaker 2
+Yes, yes.
+00:11:26 Speaker 1
+It's 205.
+00:11:29 Speaker 2
+205.
+00:11:31 Speaker 1
+977.
+00:11:34 Speaker 2
+977.
+00:11:36 Speaker 1
+766.
+00:11:39 Speaker 2
+766 May I repeat?
+00:11:42 Speaker 1
+Yes.
+00:11:43 Speaker 2
+275977766.
+00:11:47 Speaker 1
+That's correct, just send us this number in the subject line of the email.
+00:11:55 Speaker 1
+Index the documentation and indicate the date of the incident or an expected date. When it happened, along with a brief description that it is water seeping in from the roof.
+00:12:08 Speaker 2
+Yes.
+00:12:10 Speaker 1
+Yes.
+00:12:11 Speaker 2
+Okay.
+00:12:12 Speaker 1
+Can I help you with anything else?
+00:12:15 Speaker 2
+No, that's all, thank you.
+00:12:17 Speaker 1
+No problem, I'll just ask you to rate the service, please. Thank you.
+00:12:24 Speaker 2
+Thank you, see you later.
+

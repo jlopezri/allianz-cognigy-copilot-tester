@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Allianz Cognigy Copilot Tester</title>
   <link rel="stylesheet" href="/styles.css" />
 </head>
+
 <body>
   <header>
     <h1>Allianz Cognigy Copilot Tester</h1>
@@ -19,18 +21,18 @@
           <input type="file" id="fileInput" accept=".txt" />
         </div>
         <div class="row">
-          <label for="speedInput">Velocidad (msg/seg):</label>
+          <label for="speedInput">Speed (msg/seg):</label>
           <input type="number" id="speedInput" min="0.25" step="0.25" value="1" />
         </div>
         <div class="row">
           <label>Mapeo Speakers:</label>
           <select id="speaker1">
-            <option value="agent" selected>Speaker 1 = agente</option>
-            <option value="customer">Speaker 1 = cliente</option>
+            <option value="agent" selected>Speaker 1 = agent</option>
+            <option value="customer">Speaker 1 = customer</option>
           </select>
           <select id="speaker2">
-            <option value="customer" selected>Speaker 2 = cliente</option>
-            <option value="agent">Speaker 2 = agente</option>
+            <option value="customer" selected>Speaker 2 = customer</option>
+            <option value="agent">Speaker 2 = agent</option>
           </select>
         </div>
         <div class="row buttons">
@@ -61,10 +63,5 @@
 
   <script src="/app.js"></script>
 </body>
-<!--
-  Nota: Esta herramienta es de uso interno. Ajustar payload/eventos
-  según comportamiento observado del bot en Cognigy.
--->
+
 </html>
-
-

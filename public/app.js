@@ -66,16 +66,18 @@ let playIndex = 0;
 let playing = false;
 
 async function startSession() {
-  log('Iniciando sesión con Cognigy...');
+  log('Starting session with Cognigy...');
   const resp = await fetch('/api/session/start', { method: 'POST' });
   const data = await resp.json();
-  if (!data.ok) throw new Error(data.message || 'No se pudo iniciar la sesión');
-  log(`Sesión iniciada: userId=${data.userId}, sessionId=${data.sessionId}`);
+  if (!data.ok) {
+    throw new Error(data.message || 'Error starting session');
+  }
+  log(`Session started: userId=${data.userId}, sessionId=${data.sessionId}`);
   if (data.iframeUrl) {
     copilotFrame.src = data.iframeUrl;
-    log('Iframe URL recibido y cargado.');
+    log('Iframe URL received and loaded');
   } else {
-    log(data.notice || 'Esperando iframe URL...');
+    log(data.notice || 'Waiting for iframe URL...');
     // Poll state until iframe arrives
     const poll = async () => {
       try {
@@ -83,7 +85,7 @@ async function startSession() {
         const s = await r.json();
         if (s.iframeUrl) {
           copilotFrame.src = s.iframeUrl;
-          log('Iframe URL recibido (poll) y cargado.');
+          log('Iframe URL received (poll) and loaded');
         } else {
           setTimeout(poll, 1000);
         }
@@ -103,8 +105,8 @@ async function sendOne(block) {
     body: JSON.stringify({ text: block.content, role }),
   });
   const data = await resp.json();
-  if (!data.ok) throw new Error('Fallo al enviar mensaje');
-  log(`Enviado: Speaker ${block.speaker} (${role}) -> ${block.content.substring(0, 80)}${block.content.length > 80 ? '…' : ''}`);
+  if (!data.ok) throw new Error('Error sending message');
+  log(`Message sent: Speaker ${block.speaker} (${role}) -> ${block.content.substring(0, 80)}${block.content.length > 80 ? '…' : ''}`);
 }
 
 function scheduleNext() {
@@ -113,7 +115,7 @@ function scheduleNext() {
   timerId = setTimeout(async () => {
     if (!playing) return;
     if (playIndex >= parsedBlocks.length) {
-      log('Fin de transcript.');
+      log('Transcript finished');
       playing = false;
       pauseBtn.disabled = true;
       resumeBtn.disabled = true;
@@ -137,7 +139,7 @@ function scheduleNext() {
         liPlayed.classList.remove('current');
       }
     } catch (e) {
-      log(`Error al enviar: ${e.message || e}`);
+      log(`Error sending: ${e.message || e}`);
     }
     playIndex++;
     scheduleNext();
@@ -146,7 +148,7 @@ function scheduleNext() {
 
 function startPlayback() {
   if (!parsedBlocks.length) {
-    log('No hay transcript cargado.');
+    log('No transcript loaded');
     return;
   }
   playing = true;
@@ -178,7 +180,7 @@ async function resetAll() {
   playIndex = 0;
   await fetch('/api/session/reset', { method: 'POST' });
   copilotFrame.src = 'about:blank';
-  log('Reseteado.');
+  log('Reseted');
 }
 
 fileInput.addEventListener('change', async (e) => {
@@ -187,7 +189,7 @@ fileInput.addEventListener('change', async (e) => {
   const text = await file.text();
   parsedBlocks = parseTranscript(text);
   renderTranscript(parsedBlocks);
-  log(`Transcript cargado: ${parsedBlocks.length} bloques.`);
+  log(`Transcript loaded: ${parsedBlocks.length} blocks`);
 });
 
 startBtn.addEventListener('click', async () => {
@@ -197,7 +199,7 @@ startBtn.addEventListener('click', async () => {
     startPlayback();
     resetBtn.disabled = false;
   } catch (e) {
-    log(`Error iniciando: ${e.message || e}`);
+    log(`Error starting: ${e.message || e}`);
     startBtn.disabled = false;
   }
 });
